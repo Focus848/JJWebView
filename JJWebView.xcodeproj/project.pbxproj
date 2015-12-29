@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD32FE7A1C286F0B0001B0E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FE791C286F0B0001B0E5 /* main.m */; };
+		CD32FE7D1C286F0B0001B0E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FE7C1C286F0B0001B0E5 /* AppDelegate.m */; };
+		CD32FE801C286F0B0001B0E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FE7F1C286F0B0001B0E5 /* ViewController.m */; };
+		CD32FE831C286F0B0001B0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD32FE811C286F0B0001B0E5 /* Main.storyboard */; };
+		CD32FE851C286F0B0001B0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD32FE841C286F0B0001B0E5 /* Assets.xcassets */; };
+		CD32FE881C286F0B0001B0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD32FE861C286F0B0001B0E5 /* LaunchScreen.storyboard */; };
+		CD32FE931C286F0B0001B0E5 /* JJWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FE921C286F0B0001B0E5 /* JJWebViewTests.m */; };
+		CD32FE9E1C286F0B0001B0E5 /* JJWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FE9D1C286F0B0001B0E5 /* JJWebViewUITests.m */; };
+		CD32FEC21C2902690001B0E5 /* IDMCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEB31C2902690001B0E5 /* IDMCaptionView.m */; };
+		CD32FEC31C2902690001B0E5 /* IDMPBLocalizations.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD32FEB51C2902690001B0E5 /* IDMPBLocalizations.bundle */; };
+		CD32FEC41C2902690001B0E5 /* IDMPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEB71C2902690001B0E5 /* IDMPhoto.m */; };
+		CD32FEC51C2902690001B0E5 /* IDMPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD32FEB81C2902690001B0E5 /* IDMPhotoBrowser.bundle */; };
+		CD32FEC61C2902690001B0E5 /* IDMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEBA1C2902690001B0E5 /* IDMPhotoBrowser.m */; };
+		CD32FEC71C2902690001B0E5 /* IDMTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEBD1C2902690001B0E5 /* IDMTapDetectingImageView.m */; };
+		CD32FEC81C2902690001B0E5 /* IDMTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEBF1C2902690001B0E5 /* IDMTapDetectingView.m */; };
+		CD32FEC91C2902690001B0E5 /* IDMZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEC11C2902690001B0E5 /* IDMZoomingScrollView.m */; };
+		CD32FEEC1C291DAA0001B0E5 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FECC1C291DAA0001B0E5 /* MKAnnotationView+WebCache.m */; };
+		CD32FEED1C291DAA0001B0E5 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FECE1C291DAA0001B0E5 /* NSData+ImageContentType.m */; };
+		CD32FEEE1C291DAA0001B0E5 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FED01C291DAA0001B0E5 /* SDImageCache.m */; };
+		CD32FEEF1C291DAA0001B0E5 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FED21C291DAA0001B0E5 /* SDWebImageCompat.m */; };
+		CD32FEF01C291DAA0001B0E5 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FED41C291DAA0001B0E5 /* SDWebImageDecoder.m */; };
+		CD32FEF11C291DAA0001B0E5 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FED61C291DAA0001B0E5 /* SDWebImageDownloader.m */; };
+		CD32FEF21C291DAA0001B0E5 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FED81C291DAA0001B0E5 /* SDWebImageDownloaderOperation.m */; };
+		CD32FEF31C291DAA0001B0E5 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEDA1C291DAA0001B0E5 /* SDWebImageManager.m */; };
+		CD32FEF41C291DAA0001B0E5 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEDD1C291DAA0001B0E5 /* SDWebImagePrefetcher.m */; };
+		CD32FEF51C291DAA0001B0E5 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEDF1C291DAA0001B0E5 /* UIButton+WebCache.m */; };
+		CD32FEF61C291DAA0001B0E5 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEE11C291DAA0001B0E5 /* UIImage+GIF.m */; };
+		CD32FEF71C291DAA0001B0E5 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEE31C291DAA0001B0E5 /* UIImage+MultiFormat.m */; };
+		CD32FEF81C291DAA0001B0E5 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEE51C291DAA0001B0E5 /* UIImage+WebP.m */; };
+		CD32FEF91C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEE71C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.m */; };
+		CD32FEFA1C291DAA0001B0E5 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEE91C291DAA0001B0E5 /* UIImageView+WebCache.m */; };
+		CD32FEFB1C291DAA0001B0E5 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEEB1C291DAA0001B0E5 /* UIView+WebCacheOperation.m */; };
+		CD32FF011C291F460001B0E5 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FEFE1C291F460001B0E5 /* DACircularProgressView.m */; };
+		CD32FF021C291F460001B0E5 /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF001C291F460001B0E5 /* DALabeledCircularProgressView.m */; };
+		CD32FF3C1C291FE30001B0E5 /* pop-ios-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD32FF051C291FE30001B0E5 /* pop-ios-Info.plist */; };
+		CD32FF3D1C291FE30001B0E5 /* pop-osx-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD32FF061C291FE30001B0E5 /* pop-osx-Info.plist */; };
+		CD32FF3E1C291FE30001B0E5 /* pop-tvos-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD32FF071C291FE30001B0E5 /* pop-tvos-Info.plist */; };
+		CD32FF3F1C291FE30001B0E5 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF0B1C291FE30001B0E5 /* POPAnimatableProperty.mm */; };
+		CD32FF401C291FE30001B0E5 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF0D1C291FE30001B0E5 /* POPAnimation.mm */; };
+		CD32FF411C291FE30001B0E5 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF0F1C291FE30001B0E5 /* POPAnimationEvent.mm */; };
+		CD32FF421C291FE30001B0E5 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF121C291FE30001B0E5 /* POPAnimationExtras.mm */; };
+		CD32FF431C291FE30001B0E5 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF161C291FE30001B0E5 /* POPAnimationRuntime.mm */; };
+		CD32FF441C291FE30001B0E5 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF181C291FE30001B0E5 /* POPAnimationTracer.mm */; };
+		CD32FF451C291FE30001B0E5 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF1B1C291FE30001B0E5 /* POPAnimator.mm */; };
+		CD32FF461C291FE30001B0E5 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF1E1C291FE30001B0E5 /* POPBasicAnimation.mm */; };
+		CD32FF471C291FE30001B0E5 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF211C291FE30001B0E5 /* POPCGUtils.mm */; };
+		CD32FF481C291FE30001B0E5 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF231C291FE30001B0E5 /* POPCustomAnimation.mm */; };
+		CD32FF491C291FE30001B0E5 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF251C291FE30001B0E5 /* POPDecayAnimation.mm */; };
+		CD32FF4A1C291FE30001B0E5 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF291C291FE30001B0E5 /* POPGeometry.mm */; };
+		CD32FF4B1C291FE30001B0E5 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF2B1C291FE30001B0E5 /* POPLayerExtras.mm */; };
+		CD32FF4C1C291FE30001B0E5 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF2D1C291FE30001B0E5 /* POPMath.mm */; };
+		CD32FF4D1C291FE30001B0E5 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF2F1C291FE30001B0E5 /* POPPropertyAnimation.mm */; };
+		CD32FF4E1C291FE30001B0E5 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF321C291FE30001B0E5 /* POPSpringAnimation.mm */; };
+		CD32FF4F1C291FE30001B0E5 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF361C291FE30001B0E5 /* POPVector.mm */; };
+		CD32FF501C291FE30001B0E5 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD32FF391C291FE30001B0E5 /* TransformationMatrix.cpp */; };
+		CD85CC4E1C29563E00636D06 /* JJWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85CC4D1C29563E00636D06 /* JJWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD32FE8F1C286F0B0001B0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD32FE6D1C286F0A0001B0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD32FE741C286F0A0001B0E5;
+			remoteInfo = JJWebView;
+		};
+		CD32FE9A1C286F0B0001B0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD32FE6D1C286F0A0001B0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD32FE741C286F0A0001B0E5;
+			remoteInfo = JJWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD32FE751C286F0A0001B0E5 /* JJWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32FE791C286F0B0001B0E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD32FE7B1C286F0B0001B0E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD32FE7C1C286F0B0001B0E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD32FE7E1C286F0B0001B0E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD32FE7F1C286F0B0001B0E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD32FE821C286F0B0001B0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD32FE841C286F0B0001B0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD32FE871C286F0B0001B0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD32FE891C286F0B0001B0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32FE8E1C286F0B0001B0E5 /* JJWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32FE921C286F0B0001B0E5 /* JJWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWebViewTests.m; sourceTree = "<group>"; };
+		CD32FE941C286F0B0001B0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32FE991C286F0B0001B0E5 /* JJWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD32FE9D1C286F0B0001B0E5 /* JJWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJWebViewUITests.m; sourceTree = "<group>"; };
+		CD32FE9F1C286F0B0001B0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD32FEAB1C286F330001B0E5 /* JJWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJWebView.h; sourceTree = "<group>"; };
+		CD32FEB21C2902690001B0E5 /* IDMCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMCaptionView.h; sourceTree = "<group>"; };
+		CD32FEB31C2902690001B0E5 /* IDMCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMCaptionView.m; sourceTree = "<group>"; };
+		CD32FEB41C2902690001B0E5 /* IDMPBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPBConstants.h; sourceTree = "<group>"; };
+		CD32FEB51C2902690001B0E5 /* IDMPBLocalizations.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDMPBLocalizations.bundle; sourceTree = "<group>"; };
+		CD32FEB61C2902690001B0E5 /* IDMPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhoto.h; sourceTree = "<group>"; };
+		CD32FEB71C2902690001B0E5 /* IDMPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMPhoto.m; sourceTree = "<group>"; };
+		CD32FEB81C2902690001B0E5 /* IDMPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDMPhotoBrowser.bundle; sourceTree = "<group>"; };
+		CD32FEB91C2902690001B0E5 /* IDMPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhotoBrowser.h; sourceTree = "<group>"; };
+		CD32FEBA1C2902690001B0E5 /* IDMPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMPhotoBrowser.m; sourceTree = "<group>"; };
+		CD32FEBB1C2902690001B0E5 /* IDMPhotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMPhotoProtocol.h; sourceTree = "<group>"; };
+		CD32FEBC1C2902690001B0E5 /* IDMTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMTapDetectingImageView.h; sourceTree = "<group>"; };
+		CD32FEBD1C2902690001B0E5 /* IDMTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTapDetectingImageView.m; sourceTree = "<group>"; };
+		CD32FEBE1C2902690001B0E5 /* IDMTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMTapDetectingView.h; sourceTree = "<group>"; };
+		CD32FEBF1C2902690001B0E5 /* IDMTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMTapDetectingView.m; sourceTree = "<group>"; };
+		CD32FEC01C2902690001B0E5 /* IDMZoomingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMZoomingScrollView.h; sourceTree = "<group>"; };
+		CD32FEC11C2902690001B0E5 /* IDMZoomingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMZoomingScrollView.m; sourceTree = "<group>"; };
+		CD32FECB1C291DAA0001B0E5 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		CD32FECC1C291DAA0001B0E5 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		CD32FECD1C291DAA0001B0E5 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		CD32FECE1C291DAA0001B0E5 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		CD32FECF1C291DAA0001B0E5 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		CD32FED01C291DAA0001B0E5 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		CD32FED11C291DAA0001B0E5 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		CD32FED21C291DAA0001B0E5 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		CD32FED31C291DAA0001B0E5 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		CD32FED41C291DAA0001B0E5 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		CD32FED51C291DAA0001B0E5 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		CD32FED61C291DAA0001B0E5 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		CD32FED71C291DAA0001B0E5 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		CD32FED81C291DAA0001B0E5 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		CD32FED91C291DAA0001B0E5 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		CD32FEDA1C291DAA0001B0E5 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		CD32FEDB1C291DAA0001B0E5 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		CD32FEDC1C291DAA0001B0E5 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		CD32FEDD1C291DAA0001B0E5 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		CD32FEDE1C291DAA0001B0E5 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		CD32FEDF1C291DAA0001B0E5 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		CD32FEE01C291DAA0001B0E5 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		CD32FEE11C291DAA0001B0E5 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		CD32FEE21C291DAA0001B0E5 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		CD32FEE31C291DAA0001B0E5 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		CD32FEE41C291DAA0001B0E5 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		CD32FEE51C291DAA0001B0E5 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		CD32FEE61C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		CD32FEE71C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		CD32FEE81C291DAA0001B0E5 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		CD32FEE91C291DAA0001B0E5 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		CD32FEEA1C291DAA0001B0E5 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		CD32FEEB1C291DAA0001B0E5 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		CD32FEFD1C291F460001B0E5 /* DACircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DACircularProgressView.h; sourceTree = "<group>"; };
+		CD32FEFE1C291F460001B0E5 /* DACircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DACircularProgressView.m; sourceTree = "<group>"; };
+		CD32FEFF1C291F460001B0E5 /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DALabeledCircularProgressView.h; sourceTree = "<group>"; };
+		CD32FF001C291F460001B0E5 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DALabeledCircularProgressView.m; sourceTree = "<group>"; };
+		CD32FF041C291FE30001B0E5 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CD32FF051C291FE30001B0E5 /* pop-ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-ios-Info.plist"; sourceTree = "<group>"; };
+		CD32FF061C291FE30001B0E5 /* pop-osx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-osx-Info.plist"; sourceTree = "<group>"; };
+		CD32FF071C291FE30001B0E5 /* pop-tvos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pop-tvos-Info.plist"; sourceTree = "<group>"; };
+		CD32FF081C291FE30001B0E5 /* POP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		CD32FF091C291FE30001B0E5 /* POPAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		CD32FF0A1C291FE30001B0E5 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		CD32FF0B1C291FE30001B0E5 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		CD32FF0C1C291FE30001B0E5 /* POPAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		CD32FF0D1C291FE30001B0E5 /* POPAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		CD32FF0E1C291FE30001B0E5 /* POPAnimationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		CD32FF0F1C291FE30001B0E5 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		CD32FF101C291FE30001B0E5 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		CD32FF111C291FE30001B0E5 /* POPAnimationExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		CD32FF121C291FE30001B0E5 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		CD32FF131C291FE30001B0E5 /* POPAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		CD32FF141C291FE30001B0E5 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		CD32FF151C291FE30001B0E5 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		CD32FF161C291FE30001B0E5 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		CD32FF171C291FE30001B0E5 /* POPAnimationTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		CD32FF181C291FE30001B0E5 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		CD32FF191C291FE30001B0E5 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		CD32FF1A1C291FE30001B0E5 /* POPAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		CD32FF1B1C291FE30001B0E5 /* POPAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		CD32FF1C1C291FE30001B0E5 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		CD32FF1D1C291FE30001B0E5 /* POPBasicAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		CD32FF1E1C291FE30001B0E5 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		CD32FF1F1C291FE30001B0E5 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		CD32FF201C291FE30001B0E5 /* POPCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		CD32FF211C291FE30001B0E5 /* POPCGUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		CD32FF221C291FE30001B0E5 /* POPCustomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		CD32FF231C291FE30001B0E5 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		CD32FF241C291FE30001B0E5 /* POPDecayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		CD32FF251C291FE30001B0E5 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		CD32FF261C291FE30001B0E5 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		CD32FF271C291FE30001B0E5 /* POPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		CD32FF281C291FE30001B0E5 /* POPGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		CD32FF291C291FE30001B0E5 /* POPGeometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		CD32FF2A1C291FE30001B0E5 /* POPLayerExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		CD32FF2B1C291FE30001B0E5 /* POPLayerExtras.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		CD32FF2C1C291FE30001B0E5 /* POPMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		CD32FF2D1C291FE30001B0E5 /* POPMath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		CD32FF2E1C291FE30001B0E5 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		CD32FF2F1C291FE30001B0E5 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		CD32FF301C291FE30001B0E5 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		CD32FF311C291FE30001B0E5 /* POPSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		CD32FF321C291FE30001B0E5 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		CD32FF331C291FE30001B0E5 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		CD32FF341C291FE30001B0E5 /* POPSpringSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		CD32FF351C291FE30001B0E5 /* POPVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		CD32FF361C291FE30001B0E5 /* POPVector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		CD32FF381C291FE30001B0E5 /* FloatConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		CD32FF391C291FE30001B0E5 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		CD32FF3A1C291FE30001B0E5 /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		CD32FF3B1C291FE30001B0E5 /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		CD85CC4D1C29563E00636D06 /* JJWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJWebView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD32FE721C286F0A0001B0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE8B1C286F0B0001B0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE961C286F0B0001B0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD32FE6C1C286F0A0001B0E5 = {
+			isa = PBXGroup;
+			children = (
+				CD32FE771C286F0B0001B0E5 /* JJWebView */,
+				CD32FE911C286F0B0001B0E5 /* JJWebViewTests */,
+				CD32FE9C1C286F0B0001B0E5 /* JJWebViewUITests */,
+				CD32FE761C286F0A0001B0E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD32FE761C286F0A0001B0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FE751C286F0A0001B0E5 /* JJWebView.app */,
+				CD32FE8E1C286F0B0001B0E5 /* JJWebViewTests.xctest */,
+				CD32FE991C286F0B0001B0E5 /* JJWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD32FE771C286F0B0001B0E5 /* JJWebView */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FF031C291FE30001B0E5 /* pop */,
+				CD32FEFC1C291F460001B0E5 /* DACircularProgress */,
+				CD32FECA1C291DAA0001B0E5 /* SDWebImage */,
+				CD32FEB11C2902690001B0E5 /* IDMPhotoBrowser */,
+				CD32FEB01C286F370001B0E5 /* Class */,
+				CD32FE7B1C286F0B0001B0E5 /* AppDelegate.h */,
+				CD32FE7C1C286F0B0001B0E5 /* AppDelegate.m */,
+				CD32FE7E1C286F0B0001B0E5 /* ViewController.h */,
+				CD32FE7F1C286F0B0001B0E5 /* ViewController.m */,
+				CD32FE811C286F0B0001B0E5 /* Main.storyboard */,
+				CD32FE841C286F0B0001B0E5 /* Assets.xcassets */,
+				CD32FE861C286F0B0001B0E5 /* LaunchScreen.storyboard */,
+				CD32FE891C286F0B0001B0E5 /* Info.plist */,
+				CD32FE781C286F0B0001B0E5 /* Supporting Files */,
+			);
+			path = JJWebView;
+			sourceTree = "<group>";
+		};
+		CD32FE781C286F0B0001B0E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FE791C286F0B0001B0E5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD32FE911C286F0B0001B0E5 /* JJWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FE921C286F0B0001B0E5 /* JJWebViewTests.m */,
+				CD32FE941C286F0B0001B0E5 /* Info.plist */,
+			);
+			path = JJWebViewTests;
+			sourceTree = "<group>";
+		};
+		CD32FE9C1C286F0B0001B0E5 /* JJWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FE9D1C286F0B0001B0E5 /* JJWebViewUITests.m */,
+				CD32FE9F1C286F0B0001B0E5 /* Info.plist */,
+			);
+			path = JJWebViewUITests;
+			sourceTree = "<group>";
+		};
+		CD32FEB01C286F370001B0E5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CD85CC4D1C29563E00636D06 /* JJWebView.m */,
+				CD32FEAB1C286F330001B0E5 /* JJWebView.h */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		CD32FEB11C2902690001B0E5 /* IDMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FEB21C2902690001B0E5 /* IDMCaptionView.h */,
+				CD32FEB31C2902690001B0E5 /* IDMCaptionView.m */,
+				CD32FEB41C2902690001B0E5 /* IDMPBConstants.h */,
+				CD32FEB51C2902690001B0E5 /* IDMPBLocalizations.bundle */,
+				CD32FEB61C2902690001B0E5 /* IDMPhoto.h */,
+				CD32FEB71C2902690001B0E5 /* IDMPhoto.m */,
+				CD32FEB81C2902690001B0E5 /* IDMPhotoBrowser.bundle */,
+				CD32FEB91C2902690001B0E5 /* IDMPhotoBrowser.h */,
+				CD32FEBA1C2902690001B0E5 /* IDMPhotoBrowser.m */,
+				CD32FEBB1C2902690001B0E5 /* IDMPhotoProtocol.h */,
+				CD32FEBC1C2902690001B0E5 /* IDMTapDetectingImageView.h */,
+				CD32FEBD1C2902690001B0E5 /* IDMTapDetectingImageView.m */,
+				CD32FEBE1C2902690001B0E5 /* IDMTapDetectingView.h */,
+				CD32FEBF1C2902690001B0E5 /* IDMTapDetectingView.m */,
+				CD32FEC01C2902690001B0E5 /* IDMZoomingScrollView.h */,
+				CD32FEC11C2902690001B0E5 /* IDMZoomingScrollView.m */,
+			);
+			path = IDMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		CD32FECA1C291DAA0001B0E5 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FECB1C291DAA0001B0E5 /* MKAnnotationView+WebCache.h */,
+				CD32FECC1C291DAA0001B0E5 /* MKAnnotationView+WebCache.m */,
+				CD32FECD1C291DAA0001B0E5 /* NSData+ImageContentType.h */,
+				CD32FECE1C291DAA0001B0E5 /* NSData+ImageContentType.m */,
+				CD32FECF1C291DAA0001B0E5 /* SDImageCache.h */,
+				CD32FED01C291DAA0001B0E5 /* SDImageCache.m */,
+				CD32FED11C291DAA0001B0E5 /* SDWebImageCompat.h */,
+				CD32FED21C291DAA0001B0E5 /* SDWebImageCompat.m */,
+				CD32FED31C291DAA0001B0E5 /* SDWebImageDecoder.h */,
+				CD32FED41C291DAA0001B0E5 /* SDWebImageDecoder.m */,
+				CD32FED51C291DAA0001B0E5 /* SDWebImageDownloader.h */,
+				CD32FED61C291DAA0001B0E5 /* SDWebImageDownloader.m */,
+				CD32FED71C291DAA0001B0E5 /* SDWebImageDownloaderOperation.h */,
+				CD32FED81C291DAA0001B0E5 /* SDWebImageDownloaderOperation.m */,
+				CD32FED91C291DAA0001B0E5 /* SDWebImageManager.h */,
+				CD32FEDA1C291DAA0001B0E5 /* SDWebImageManager.m */,
+				CD32FEDB1C291DAA0001B0E5 /* SDWebImageOperation.h */,
+				CD32FEDC1C291DAA0001B0E5 /* SDWebImagePrefetcher.h */,
+				CD32FEDD1C291DAA0001B0E5 /* SDWebImagePrefetcher.m */,
+				CD32FEDE1C291DAA0001B0E5 /* UIButton+WebCache.h */,
+				CD32FEDF1C291DAA0001B0E5 /* UIButton+WebCache.m */,
+				CD32FEE01C291DAA0001B0E5 /* UIImage+GIF.h */,
+				CD32FEE11C291DAA0001B0E5 /* UIImage+GIF.m */,
+				CD32FEE21C291DAA0001B0E5 /* UIImage+MultiFormat.h */,
+				CD32FEE31C291DAA0001B0E5 /* UIImage+MultiFormat.m */,
+				CD32FEE41C291DAA0001B0E5 /* UIImage+WebP.h */,
+				CD32FEE51C291DAA0001B0E5 /* UIImage+WebP.m */,
+				CD32FEE61C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.h */,
+				CD32FEE71C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.m */,
+				CD32FEE81C291DAA0001B0E5 /* UIImageView+WebCache.h */,
+				CD32FEE91C291DAA0001B0E5 /* UIImageView+WebCache.m */,
+				CD32FEEA1C291DAA0001B0E5 /* UIView+WebCacheOperation.h */,
+				CD32FEEB1C291DAA0001B0E5 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		CD32FEFC1C291F460001B0E5 /* DACircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FEFD1C291F460001B0E5 /* DACircularProgressView.h */,
+				CD32FEFE1C291F460001B0E5 /* DACircularProgressView.m */,
+				CD32FEFF1C291F460001B0E5 /* DALabeledCircularProgressView.h */,
+				CD32FF001C291F460001B0E5 /* DALabeledCircularProgressView.m */,
+			);
+			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		CD32FF031C291FE30001B0E5 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FF041C291FE30001B0E5 /* module.modulemap */,
+				CD32FF051C291FE30001B0E5 /* pop-ios-Info.plist */,
+				CD32FF061C291FE30001B0E5 /* pop-osx-Info.plist */,
+				CD32FF071C291FE30001B0E5 /* pop-tvos-Info.plist */,
+				CD32FF081C291FE30001B0E5 /* POP.h */,
+				CD32FF091C291FE30001B0E5 /* POPAction.h */,
+				CD32FF0A1C291FE30001B0E5 /* POPAnimatableProperty.h */,
+				CD32FF0B1C291FE30001B0E5 /* POPAnimatableProperty.mm */,
+				CD32FF0C1C291FE30001B0E5 /* POPAnimation.h */,
+				CD32FF0D1C291FE30001B0E5 /* POPAnimation.mm */,
+				CD32FF0E1C291FE30001B0E5 /* POPAnimationEvent.h */,
+				CD32FF0F1C291FE30001B0E5 /* POPAnimationEvent.mm */,
+				CD32FF101C291FE30001B0E5 /* POPAnimationEventInternal.h */,
+				CD32FF111C291FE30001B0E5 /* POPAnimationExtras.h */,
+				CD32FF121C291FE30001B0E5 /* POPAnimationExtras.mm */,
+				CD32FF131C291FE30001B0E5 /* POPAnimationInternal.h */,
+				CD32FF141C291FE30001B0E5 /* POPAnimationPrivate.h */,
+				CD32FF151C291FE30001B0E5 /* POPAnimationRuntime.h */,
+				CD32FF161C291FE30001B0E5 /* POPAnimationRuntime.mm */,
+				CD32FF171C291FE30001B0E5 /* POPAnimationTracer.h */,
+				CD32FF181C291FE30001B0E5 /* POPAnimationTracer.mm */,
+				CD32FF191C291FE30001B0E5 /* POPAnimationTracerInternal.h */,
+				CD32FF1A1C291FE30001B0E5 /* POPAnimator.h */,
+				CD32FF1B1C291FE30001B0E5 /* POPAnimator.mm */,
+				CD32FF1C1C291FE30001B0E5 /* POPAnimatorPrivate.h */,
+				CD32FF1D1C291FE30001B0E5 /* POPBasicAnimation.h */,
+				CD32FF1E1C291FE30001B0E5 /* POPBasicAnimation.mm */,
+				CD32FF1F1C291FE30001B0E5 /* POPBasicAnimationInternal.h */,
+				CD32FF201C291FE30001B0E5 /* POPCGUtils.h */,
+				CD32FF211C291FE30001B0E5 /* POPCGUtils.mm */,
+				CD32FF221C291FE30001B0E5 /* POPCustomAnimation.h */,
+				CD32FF231C291FE30001B0E5 /* POPCustomAnimation.mm */,
+				CD32FF241C291FE30001B0E5 /* POPDecayAnimation.h */,
+				CD32FF251C291FE30001B0E5 /* POPDecayAnimation.mm */,
+				CD32FF261C291FE30001B0E5 /* POPDecayAnimationInternal.h */,
+				CD32FF271C291FE30001B0E5 /* POPDefines.h */,
+				CD32FF281C291FE30001B0E5 /* POPGeometry.h */,
+				CD32FF291C291FE30001B0E5 /* POPGeometry.mm */,
+				CD32FF2A1C291FE30001B0E5 /* POPLayerExtras.h */,
+				CD32FF2B1C291FE30001B0E5 /* POPLayerExtras.mm */,
+				CD32FF2C1C291FE30001B0E5 /* POPMath.h */,
+				CD32FF2D1C291FE30001B0E5 /* POPMath.mm */,
+				CD32FF2E1C291FE30001B0E5 /* POPPropertyAnimation.h */,
+				CD32FF2F1C291FE30001B0E5 /* POPPropertyAnimation.mm */,
+				CD32FF301C291FE30001B0E5 /* POPPropertyAnimationInternal.h */,
+				CD32FF311C291FE30001B0E5 /* POPSpringAnimation.h */,
+				CD32FF321C291FE30001B0E5 /* POPSpringAnimation.mm */,
+				CD32FF331C291FE30001B0E5 /* POPSpringAnimationInternal.h */,
+				CD32FF341C291FE30001B0E5 /* POPSpringSolver.h */,
+				CD32FF351C291FE30001B0E5 /* POPVector.h */,
+				CD32FF361C291FE30001B0E5 /* POPVector.mm */,
+				CD32FF371C291FE30001B0E5 /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		CD32FF371C291FE30001B0E5 /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				CD32FF381C291FE30001B0E5 /* FloatConversion.h */,
+				CD32FF391C291FE30001B0E5 /* TransformationMatrix.cpp */,
+				CD32FF3A1C291FE30001B0E5 /* TransformationMatrix.h */,
+				CD32FF3B1C291FE30001B0E5 /* UnitBezier.h */,
+			);
+			path = WebCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD32FE741C286F0A0001B0E5 /* JJWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32FEA21C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebView" */;
+			buildPhases = (
+				CD32FE711C286F0A0001B0E5 /* Sources */,
+				CD32FE721C286F0A0001B0E5 /* Frameworks */,
+				CD32FE731C286F0A0001B0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJWebView;
+			productName = JJWebView;
+			productReference = CD32FE751C286F0A0001B0E5 /* JJWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD32FE8D1C286F0B0001B0E5 /* JJWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32FEA51C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebViewTests" */;
+			buildPhases = (
+				CD32FE8A1C286F0B0001B0E5 /* Sources */,
+				CD32FE8B1C286F0B0001B0E5 /* Frameworks */,
+				CD32FE8C1C286F0B0001B0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD32FE901C286F0B0001B0E5 /* PBXTargetDependency */,
+			);
+			name = JJWebViewTests;
+			productName = JJWebViewTests;
+			productReference = CD32FE8E1C286F0B0001B0E5 /* JJWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD32FE981C286F0B0001B0E5 /* JJWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD32FEA81C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebViewUITests" */;
+			buildPhases = (
+				CD32FE951C286F0B0001B0E5 /* Sources */,
+				CD32FE961C286F0B0001B0E5 /* Frameworks */,
+				CD32FE971C286F0B0001B0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD32FE9B1C286F0B0001B0E5 /* PBXTargetDependency */,
+			);
+			name = JJWebViewUITests;
+			productName = JJWebViewUITests;
+			productReference = CD32FE991C286F0B0001B0E5 /* JJWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD32FE6D1C286F0A0001B0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李红(lh.coder@foxmail.com)";
+				TargetAttributes = {
+					CD32FE741C286F0A0001B0E5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD32FE8D1C286F0B0001B0E5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD32FE741C286F0A0001B0E5;
+					};
+					CD32FE981C286F0B0001B0E5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD32FE741C286F0A0001B0E5;
+					};
+				};
+			};
+			buildConfigurationList = CD32FE701C286F0A0001B0E5 /* Build configuration list for PBXProject "JJWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD32FE6C1C286F0A0001B0E5;
+			productRefGroup = CD32FE761C286F0A0001B0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD32FE741C286F0A0001B0E5 /* JJWebView */,
+				CD32FE8D1C286F0B0001B0E5 /* JJWebViewTests */,
+				CD32FE981C286F0B0001B0E5 /* JJWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD32FE731C286F0A0001B0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32FF3D1C291FE30001B0E5 /* pop-osx-Info.plist in Resources */,
+				CD32FE881C286F0B0001B0E5 /* LaunchScreen.storyboard in Resources */,
+				CD32FEC31C2902690001B0E5 /* IDMPBLocalizations.bundle in Resources */,
+				CD32FF3C1C291FE30001B0E5 /* pop-ios-Info.plist in Resources */,
+				CD32FEC51C2902690001B0E5 /* IDMPhotoBrowser.bundle in Resources */,
+				CD32FE851C286F0B0001B0E5 /* Assets.xcassets in Resources */,
+				CD32FF3E1C291FE30001B0E5 /* pop-tvos-Info.plist in Resources */,
+				CD32FE831C286F0B0001B0E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE8C1C286F0B0001B0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE971C286F0B0001B0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD32FE711C286F0A0001B0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32FEC91C2902690001B0E5 /* IDMZoomingScrollView.m in Sources */,
+				CD32FF4D1C291FE30001B0E5 /* POPPropertyAnimation.mm in Sources */,
+				CD32FEEC1C291DAA0001B0E5 /* MKAnnotationView+WebCache.m in Sources */,
+				CD32FE801C286F0B0001B0E5 /* ViewController.m in Sources */,
+				CD32FF421C291FE30001B0E5 /* POPAnimationExtras.mm in Sources */,
+				CD32FEF41C291DAA0001B0E5 /* SDWebImagePrefetcher.m in Sources */,
+				CD32FF461C291FE30001B0E5 /* POPBasicAnimation.mm in Sources */,
+				CD32FF491C291FE30001B0E5 /* POPDecayAnimation.mm in Sources */,
+				CD32FF011C291F460001B0E5 /* DACircularProgressView.m in Sources */,
+				CD32FEF31C291DAA0001B0E5 /* SDWebImageManager.m in Sources */,
+				CD32FF441C291FE30001B0E5 /* POPAnimationTracer.mm in Sources */,
+				CD32FF401C291FE30001B0E5 /* POPAnimation.mm in Sources */,
+				CD32FF471C291FE30001B0E5 /* POPCGUtils.mm in Sources */,
+				CD32FF501C291FE30001B0E5 /* TransformationMatrix.cpp in Sources */,
+				CD32FEC81C2902690001B0E5 /* IDMTapDetectingView.m in Sources */,
+				CD32FEC71C2902690001B0E5 /* IDMTapDetectingImageView.m in Sources */,
+				CD32FEFA1C291DAA0001B0E5 /* UIImageView+WebCache.m in Sources */,
+				CD32FEEF1C291DAA0001B0E5 /* SDWebImageCompat.m in Sources */,
+				CD32FF4F1C291FE30001B0E5 /* POPVector.mm in Sources */,
+				CD32FF431C291FE30001B0E5 /* POPAnimationRuntime.mm in Sources */,
+				CD32FF4B1C291FE30001B0E5 /* POPLayerExtras.mm in Sources */,
+				CD32FE7D1C286F0B0001B0E5 /* AppDelegate.m in Sources */,
+				CD32FEF01C291DAA0001B0E5 /* SDWebImageDecoder.m in Sources */,
+				CD32FEF71C291DAA0001B0E5 /* UIImage+MultiFormat.m in Sources */,
+				CD32FEF81C291DAA0001B0E5 /* UIImage+WebP.m in Sources */,
+				CD32FEF21C291DAA0001B0E5 /* SDWebImageDownloaderOperation.m in Sources */,
+				CD32FF411C291FE30001B0E5 /* POPAnimationEvent.mm in Sources */,
+				CD85CC4E1C29563E00636D06 /* JJWebView.m in Sources */,
+				CD32FEFB1C291DAA0001B0E5 /* UIView+WebCacheOperation.m in Sources */,
+				CD32FF3F1C291FE30001B0E5 /* POPAnimatableProperty.mm in Sources */,
+				CD32FF4A1C291FE30001B0E5 /* POPGeometry.mm in Sources */,
+				CD32FEF11C291DAA0001B0E5 /* SDWebImageDownloader.m in Sources */,
+				CD32FF451C291FE30001B0E5 /* POPAnimator.mm in Sources */,
+				CD32FEF61C291DAA0001B0E5 /* UIImage+GIF.m in Sources */,
+				CD32FEC61C2902690001B0E5 /* IDMPhotoBrowser.m in Sources */,
+				CD32FE7A1C286F0B0001B0E5 /* main.m in Sources */,
+				CD32FEC41C2902690001B0E5 /* IDMPhoto.m in Sources */,
+				CD32FEF91C291DAA0001B0E5 /* UIImageView+HighlightedWebCache.m in Sources */,
+				CD32FF4E1C291FE30001B0E5 /* POPSpringAnimation.mm in Sources */,
+				CD32FEEE1C291DAA0001B0E5 /* SDImageCache.m in Sources */,
+				CD32FEF51C291DAA0001B0E5 /* UIButton+WebCache.m in Sources */,
+				CD32FF4C1C291FE30001B0E5 /* POPMath.mm in Sources */,
+				CD32FF021C291F460001B0E5 /* DALabeledCircularProgressView.m in Sources */,
+				CD32FEED1C291DAA0001B0E5 /* NSData+ImageContentType.m in Sources */,
+				CD32FEC21C2902690001B0E5 /* IDMCaptionView.m in Sources */,
+				CD32FF481C291FE30001B0E5 /* POPCustomAnimation.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE8A1C286F0B0001B0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32FE931C286F0B0001B0E5 /* JJWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD32FE951C286F0B0001B0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD32FE9E1C286F0B0001B0E5 /* JJWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD32FE901C286F0B0001B0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD32FE741C286F0A0001B0E5 /* JJWebView */;
+			targetProxy = CD32FE8F1C286F0B0001B0E5 /* PBXContainerItemProxy */;
+		};
+		CD32FE9B1C286F0B0001B0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD32FE741C286F0A0001B0E5 /* JJWebView */;
+			targetProxy = CD32FE9A1C286F0B0001B0E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD32FE811C286F0B0001B0E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD32FE821C286F0B0001B0E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD32FE861C286F0B0001B0E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD32FE871C286F0B0001B0E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD32FEA01C286F0B0001B0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD32FEA11C286F0B0001B0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD32FEA31C286F0B0001B0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JJWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JJWebView",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD32FEA41C286F0B0001B0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JJWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JJWebView",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD32FEA61C286F0B0001B0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJWebView.app/JJWebView";
+			};
+			name = Debug;
+		};
+		CD32FEA71C286F0B0001B0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JJWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJWebView.app/JJWebView";
+			};
+			name = Release;
+		};
+		CD32FEA91C286F0B0001B0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD32FEAA1C286F0B0001B0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JJWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = love.i520.JJWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JJWebView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD32FE701C286F0A0001B0E5 /* Build configuration list for PBXProject "JJWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32FEA01C286F0B0001B0E5 /* Debug */,
+				CD32FEA11C286F0B0001B0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32FEA21C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32FEA31C286F0B0001B0E5 /* Debug */,
+				CD32FEA41C286F0B0001B0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32FEA51C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32FEA61C286F0B0001B0E5 /* Debug */,
+				CD32FEA71C286F0B0001B0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD32FEA81C286F0B0001B0E5 /* Build configuration list for PBXNativeTarget "JJWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD32FEA91C286F0B0001B0E5 /* Debug */,
+				CD32FEAA1C286F0B0001B0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD32FE6D1C286F0A0001B0E5 /* Project object */;
+}
