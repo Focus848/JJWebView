@@ -36,10 +36,11 @@
     self.delegate = self;
 }
 
+
 - (void)addJavaScript {
     NSString *script =
     @"function setImage(){\
-        var imgs = document.getElementsByTagName(\"img\");\
+      var imgs = document.getElementsByTagName(\"img\");\
         for (var i=0;i<imgs.length;i++){\
             imgs[i].setAttribute(\"onClick\",\"imageClick(\"+i+\")\");\
         }\
